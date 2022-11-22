@@ -1,0 +1,65 @@
+
+*{
+    margin: 0%;
+     padding: 0%;
+    }
+/* body{
+  background-image: url(../img/fondo3.webp);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;  
+  
+}  */
+div.principal{
+    height:auto;
+    display: grid;
+    grid-template-rows: 5% 13% 48% ;
+    gap:45px ;
+    margin:2%;
+    margin-left: 10%;
+
+    
+
+}
+.principal>div{
+    display: grid;
+    width: 88%;
+   /*  border: solid red; */
+}  
+div.titulo{
+    justify-content: start;
+}
+
+tr{
+    font-size: 24px; /* tamaño de letra */
+    
+}
+#search {
+    right: 20px;
+    width: 90px;
+    border-radius: 32px;    
+    font: 13px "Helvetica Neue", Arial, sans-serif;
+    padding: 4px 10px;
+    border: solid rgb(49, 139, 113);
+    background: rgba(182, 166, 166, 0.523);
+    width: 125%;
+}
+fieldset{
+ border: 5px solid black;
+ justify-content: center;
+ border-radius: 1%;
+ padding: 2%;
+}
+ table.mayor{
+    width: 100%;
+    padding-left: 10px;
+    height: 400px;
+ }
+a{
+    color:  blue;
+}
+h3{
+    font-size: 160%;
+}
+.ultra{
+    color: black;
+}

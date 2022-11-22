@@ -1,0 +1,33 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+.principal{
+    height: 700px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: center;
+    background-color: white;
+}
+.principal>div{
+    border: solid black;
+    height: 40%; 
+    margin: 9%;
+    margin-top: 40%; 
+    border-radius: 10px 10px 10px 10px;  
+    background-color: rgba(149, 116, 226, 0.829);
+}
+img{
+    width: 85%;
+    height: 85%;
+    justify-content: center;
+    margin-left: 5%;
+    margin-top: 2%;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 33px;
+}

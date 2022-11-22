@@ -1,0 +1,58 @@
+
+*{
+    margin: 0%;
+     padding: 0%;
+    }
+/* body{
+/*   background-image: url(../img/fonodo3.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;   
+  background-color: grey;
+  
+}  */
+div.principal{
+    height: 1000px;
+    display: grid;
+    grid-template-rows: 5% 13% 48% ;
+    gap:45px ;
+    margin:2%;
+    width: 1200px;
+}
+.principal>div{
+    display: grid;
+    width: 110%;
+}  
+div.titulo{
+    justify-content: start;
+}
+tr{
+    font-size: 24px; /* tamaño de letra */
+}
+#search {
+    top: 20px;
+    right: 20px;
+    width: 90px;
+    border-radius: 32px;    
+    font: 13px "Helvetica Neue", Arial, sans-serif;
+    padding: 4px 10px;
+    border: solid rgb(49, 139, 113);
+    background: rgba(182, 166, 166, 0.523);
+    width: 125%;
+}
+div.contenido{
+    display: grid;
+    grid-template-columns: 80% 20%;
+
+}
+
+nav{
+    text-align: center;
+}
+table.uno{
+    width: 100%;
+    
+}
+table.dos{
+    width: 100%;
+    height: 92%;
+}

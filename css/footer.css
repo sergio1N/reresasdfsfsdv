@@ -1,0 +1,13 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h2{
+    text-align:center;
+    color: rgb(231, 229, 229);
+
+}
+footer{
+    height:100px;
+    background-color: rgba(25, 152, 110, 0.788);
+}

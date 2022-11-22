@@ -1,0 +1,35 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+body{
+ background-image: url(../img/fondoinicio1.webp);
+ background-repeat: no-repeat;
+ background-size: 100% 100%;  
+}  
+.principal{
+    height: 800px;
+    justify-content: center;
+}   
+.principal>div{
+    border: solid red;
+    height: 60%;
+    width: 40%;
+    margin-left: 33%;
+    margin-top: 10%;
+}
+.container1{
+    display: grid;
+    grid-template-rows: 20% 80%;
+    width: 85%;
+}
+.container1>div{
+    border: solid blue;
+
+}
+img{
+    height: 60%;
+    width: 18%;
+    margin-left: 40%;
+    
+}
